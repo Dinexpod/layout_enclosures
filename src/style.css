@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.outer {
+  background-color: rgb(49, 141, 192);
+  /*margin: 40px 20px;*/
+  margin-bottom: 40px;
+  margin-left: 20px;
+  width: 350px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.middle {
+  margin: 0;
+  padding: 10px;
+  background-color: rgb(255, 165, 0);
+}
+
+.inner {
+  margin: 0;
+  padding: 10px;
+  background-color: rgb(221, 221, 221);
+}
+
+.outer,
+.middle,
+.inner {
+  border: 1px solid rgb(232, 90, 77);
+}
+
+.outer:first-child {
+  margin-top: 20px;
+}
